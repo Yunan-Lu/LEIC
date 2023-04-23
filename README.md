@@ -33,14 +33,14 @@ model = LEIC(trace_step=20).fit(X, L)
 Drec_trace = model.trace_
 # show the recovery performance
 for k in Drec_trace.keys():
-	print("The recovery performance at %d-th iteration:" % k)
+    print("The recovery performance at %d-th iteration:" % k)
     report(Drec_trace[k], D)
 ```
 
 ## Datasets
-The datasets used in our work is partially provided by [PALM](http://palm.seu.edu.cn/xgeng/LDL/index.htm).
-Emotion6: [http://chenlab.ece.cornell.edu/people/kuanchuan/index.html](http://chenlab.ece.cornell.edu/people/kuanchuan/index.html)
-Twitter-LDL: [http://47.105.62.179:8081/sentiment/index.html](http://47.105.62.179:8081/sentiment/index.html)
+- The datasets used in our work is partially provided by [PALM](http://palm.seu.edu.cn/xgeng/LDL/index.htm)
+- Emotion6: [http://chenlab.ece.cornell.edu/people/kuanchuan/index.html](http://chenlab.ece.cornell.edu/people/kuanchuan/index.html)
+- Twitter-LDL: [http://47.105.62.179:8081/sentiment/index.html](http://47.105.62.179:8081/sentiment/index.html)
 
 ## Paper
 ```latex
@@ -51,4 +51,3 @@ Twitter-LDL: [http://47.105.62.179:8081/sentiment/index.html](http://47.105.62.1
 	year={2023},
 }
 ```
-
