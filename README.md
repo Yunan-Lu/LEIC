@@ -45,9 +45,9 @@ for k in Drec_trace.keys():
 ## Paper
 ```latex
 @inproceedings{Lu2023LEIC,
-	title={Label Enhancement via Joint Implicit Representation Clustering},
-	author={Yunan Lu and Weiwei Li and Xiuyi Jia},
-	booktitle={International Joint Conferences on Artificial Intelligence},
-	year={2023},
+    title={Label Enhancement via Joint Implicit Representation Clustering},
+    author={Yunan Lu and Weiwei Li and Xiuyi Jia},
+    booktitle={International Joint Conference on Artificial Intelligence},
+    year={2023},
 }
 ```
